@@ -1,0 +1,20 @@
+{
+  "name": "bubblejs",
+  "version": "0.0.1",
+  "description": "JS library to create user triggerable popups",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Chiu",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
+}
